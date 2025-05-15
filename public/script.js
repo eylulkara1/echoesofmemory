@@ -1,13 +1,16 @@
 // 📐 Dynamic scaling based on screen size
 function getDynamicScale(baseScale) {
-    const screenWidth = window.innerWidth;
+    const img = document.getElementById('tapestry');
+    const imgWidth = img?.clientWidth || window.innerWidth;
 
-    if (screenWidth > 2500) {
-        return baseScale * 0.7;  // reducing zoom by 30% on massive screens
-    } else if (screenWidth > 1800) {
-        return baseScale * 0.8;  // reducing zoom by 20% on large screens
+    if (imgWidth > 2500) {
+        return baseScale * 0.7; // very large screens
+    } else if (imgWidth > 1800) {
+        return baseScale * 0.8; // large monitors
+    } else if (imgWidth > 1200) {
+        return baseScale * 0.9;
     } else {
-        return baseScale;        // normal zoom on laptops, phones
+        return baseScale; // laptops and small screens
     }
 }
 
@@ -166,6 +169,6 @@ document.addEventListener('click', function (event) {
 });
 
 // 🔄 Reload page when resizing screen (to reset scales)
-window.addEventListener('resize', () => {
-    location.reload();
-});
+//window.addEventListener('resize', () => {
+//    location.reload();
+//});

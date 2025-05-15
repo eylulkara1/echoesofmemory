@@ -57,8 +57,8 @@ body {
     padding: 0;
     height: 100vh;
     display: flex;
-    align-items: center; /* Vertical centering of the entire content */
-    justify-content: center; /* Horizontal centering */
+    align-items: center;
+    justify-content: center;
     background-color: black;
 }
 .container {
@@ -104,18 +104,18 @@ body {
 
 #main-image {
     display: flex;
-    justify-content: center; /* Centers the image horizontally */
-    align-items: center;     /* Centers the image vertically */
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
-    position: relative; /* Ensures hotspots stay in place */
+    position: relative;
 }
 
 .image-tapestry {
     width: 100%;
     height: auto;
-    max-width: 90%;   /* Keep your 90% scaling */
-    max-height: 90%;  /* Keep max-height */
+    max-width: 90%;
+    max-height: 90%;
     object-fit: contain;
     display: block;
     position: relative;
@@ -427,7 +427,7 @@ body {
     width: 95%;
     max-width: 1100px;
     margin: auto;
-  }
+}
   
   /* HOTSPOTS */
   .hotspot {
