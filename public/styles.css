@@ -113,8 +113,6 @@ body {
 .image-tapestry {
     width: 100%;
     height: auto;
-    max-width: 90%;
-    max-height: 90%;
     object-fit: contain;
     display: block;
     position: relative;
@@ -198,20 +196,17 @@ body {
 }
 /* Video Placeholder for Hotspot 3 */
 #video-container3 {
-    position: absolute !important;
-    top: 36% !important;  /* Adjust Y position */
-    left: 10% !important; /* Adjust X position */
+    position: absolute;
+    top: 370px;
+    left: 120px;
     width: 700px;
     height: 420px;
     background-color: rgba(255, 255, 255, 0.8);
     border: 2px dashed #ccc;
-    color: black;
     display: none;
     align-items: center;
     justify-content: center;
     z-index: 15;
-    font-size: 20px;
-    text-align: center;
 }
 
 /* Video Placeholder for Hotspot 4 */
@@ -422,9 +417,9 @@ body {
 }
 .tapestry-wrapper {
     position: relative;
-    width: 95%;
-    max-width: 1100px;
-    margin: auto;
+    width: 1000px;  /* fixed width */
+    height: auto;
+    margin: 0 auto; /* center horizontally */
 }
   /* HOTSPOTS */
   .hotspot {
