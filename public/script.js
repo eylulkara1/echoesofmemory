@@ -118,3 +118,16 @@ document.addEventListener('click', function (event) {
         document.body.style.overflow = 'auto';
     }
 });
+function scaleLayout() {
+    const baseWidth = 1440;  // Your design width
+    const baseHeight = 900;  // Your design height
+    const scaleX = window.innerWidth / baseWidth;
+    const scaleY = window.innerHeight / baseHeight;
+    const scale = Math.min(scaleX, scaleY);
+  
+    const layout = document.querySelector('.fixed-layout');
+    layout.style.transform = `scale(${scale})`;
+  }
+  
+  window.addEventListener('resize', scaleLayout);
+  window.addEventListener('load', scaleLayout);

@@ -464,3 +464,17 @@ body {
 .video-placeholder.active {
     opacity: 1; /* Fade in */
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+  }
+  
+.fixed-layout {
+    position: relative;
+    width: 1440px; /* your design width */
+    height: 900px;  /* your design height */
+    transform-origin: top left;
+  }
