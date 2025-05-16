@@ -28,16 +28,16 @@ function zoomIn(area) {
     textBox.style.display = 'none';
 
     const zoomAreas = {
-        "area1": { scale: 4, origin: "30% 19%" },
-        "area2": { scale: 4, origin: "62% 48%" },
-        "area3": { scale: 4.2, origin: "57% 16%", videoPos: { top: "40%", left: "50%" } },
-        "area4": { scale: 3.6, origin: "75% 20%", videoPos: { top: "42%", left: "55%" } },
-        "area5": { scale: 3.5, origin: "40% 42%", videoPos: { top: "50%", left: "45%" } },
-        "area6": { scale: 3.5, origin: "25% 40%", videoPos: { top: "55%", left: "60%" } },
-        "area7": { scale: 3.6, origin: "25% 60%", videoPos: { top: "65%", left: "40%" } },
-        "area8": { scale: 3.1, origin: "72% 83%", videoPos: { top: "75%", left: "50%" } },
-        "area9": { scale: 4.5, origin: "21% 87%", videoPos: { top: "80%", left: "30%" } },
-        "area10": { scale: 4.7, origin: "79% 45%", videoPos: { top: "60%", left: "65%" } }
+        "area1": { scale: 4, origin: "300px 130px" },
+        "area2": { scale: 4, origin: "610px 360px" },
+        "area3": { scale: 4.2, origin: "600px 110px" },
+        "area4": { scale: 3.6, origin: "800px 130px" },
+        "area5": { scale: 3.5, origin: "440px 330px" },
+        "area6": { scale: 3.5, origin: "280px 300px" },
+        "area7": { scale: 3.6, origin: "270px 400px" },
+        "area8": { scale: 3, origin: "730px 600px" },
+        "area9": { scale: 4.2, origin: "200px 630px" },
+        "area10": { scale: 3.5, origin: "780px 300px" }
     };
 
     if (zoomAreas[area]) {
