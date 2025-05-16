@@ -101,7 +101,6 @@ body {
     color: gray; /* Lighter color for less emphasis */
     margin-top: 30px; /* Spacing from the title */
 }
-
 #main-image {
     display: flex;
     justify-content: center;
@@ -196,17 +195,20 @@ body {
 }
 /* Video Placeholder for Hotspot 3 */
 #video-container3 {
-    position: absolute;
-    top: 370px;
-    left: 120px;
+    position: absolute !important;
+    top: 36% !important;  /* Adjust Y position */
+    left: 10% !important; /* Adjust X position */
     width: 700px;
     height: 420px;
     background-color: rgba(255, 255, 255, 0.8);
     border: 2px dashed #ccc;
+    color: black;
     display: none;
     align-items: center;
     justify-content: center;
     z-index: 15;
+    font-size: 20px;
+    text-align: center;
 }
 
 /* Video Placeholder for Hotspot 4 */
