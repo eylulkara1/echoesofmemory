@@ -1,16 +1,3 @@
-function scaleWrapper() {
-    const wrapper = document.getElementById('fixed-wrapper');
-    const baseWidth = 1728;
-    const baseHeight = 958;
-    const scaleX = window.innerWidth / baseWidth;
-    const scaleY = window.innerHeight / baseHeight;
-    const scale = Math.min(scaleX, scaleY);
-    wrapper.style.transform = `scale(${scale})`;
-  }
-  
-  window.addEventListener('load', scaleWrapper);
-  window.addEventListener('resize', scaleWrapper);
-  
 // ✅ Setup hotspot event listeners after page loads
 document.addEventListener("DOMContentLoaded", function () {
     const hotspots = [];
