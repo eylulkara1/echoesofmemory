@@ -33,11 +33,11 @@ function zoomIn(area) {
         "area3": { scale: 4.2, origin: "57% 16%", videoPos: { top: "40%", left: "50%" } },
         "area4": { scale: 3.6, origin: "75% 20%", videoPos: { top: "42%", left: "55%" } },
         "area5": { scale: 3.5, origin: "40% 42%", videoPos: { top: "50%", left: "45%" } },
-        "area6": { scale: 3.5, origin: "25% 40%", videoPos: { top: "55%", left: "60%" } },
-        "area7": { scale: 3.6, origin: "25% 60%", videoPos: { top: "65%", left: "40%" } },
+        "area6": { scale: 3, origin: "27% 40%", videoPos: { top: "55%", left: "60%" } },
+        "area7": { scale: 3.3, origin: "25% 60%", videoPos: { top: "65%", left: "36%" } },
         "area8": { scale: 3.1, origin: "72% 83%", videoPos: { top: "75%", left: "50%" } },
         "area9": { scale: 4.5, origin: "21% 87%", videoPos: { top: "80%", left: "30%" } },
-        "area10": { scale: 4.7, origin: "79% 45%", videoPos: { top: "60%", left: "65%" } }
+        "area10": { scale: 3.5, origin: "71% 45%", videoPos: { top: "60%", left: "60%" } }
     };
 
     if (zoomAreas[area]) {
