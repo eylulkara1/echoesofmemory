@@ -1,3 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+  }
+  
+  #fixed-wrapper {
+    width: 1728px;
+    height: 958px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: scale(1);
+  }
+  
+  /* Optional — if you want scaling based only on CSS (no JS) */
+  @media screen and (max-width: 1728px), (max-height: 958px) {
+    #fixed-wrapper {
+      transform: scale(calc(min(100vw / 1728, 100vh / 958)));
+    }
+  }
 /* Header styles */
 header {
     width: 100%;
